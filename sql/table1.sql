@@ -1,0 +1,1 @@
+create table prod.public.customers(id int,name string)
