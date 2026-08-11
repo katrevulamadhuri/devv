@@ -1,1 +1,1 @@
-create table prod.public.customers(id int,name string)
+create table prod.public.customers1(id int,name string)
