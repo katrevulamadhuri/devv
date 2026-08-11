@@ -1,1 +1,1 @@
-insert into orders (123)
+insert into orders values(123)
