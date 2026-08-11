@@ -31,6 +31,6 @@ jobs:
           USER: ${{ secrets.SNOWFLAKE_USER }}
           PASSWORD: ${{ secrets.SNOWFLAKE_PASSWORD }}
           DATABASE: ${{ secrets.SNOWFLAKE_DATABASE }}
-         
+          SCHEMA: ${{ secrets.SNOWFLAKE_SCHEMA }}
 
         run: python scripts/deploy.py
