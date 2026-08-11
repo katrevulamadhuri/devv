@@ -1,0 +1,1 @@
+create table customers(customerid int,customername string)
